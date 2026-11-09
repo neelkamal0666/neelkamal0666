@@ -6,10 +6,9 @@ Over 13+ years I've shipped platforms across FinTech, AI, Gaming, AgTech and Web
 
 **Lately, I've been working on**
 
-- **ComplyNova**: an agentic compliance product covering third-party risk management (TPRM), continuous monitoring, and an AI assistant
-- **NovaOS**: a governed AI-agent operating system with policy enforcement, human-in-the-loop approvals, and full audit trails
-- Durable agent workflows with Temporal, plus RAG, MCP, and A2A for agents that talk to tools and to each other
-- "Talk-to-Data" agents that query 40+ heterogeneous data sources through a data mesh
+- **[Open Knowledge Protocol (OKP)](https://github.com/Open-Knowledge-Protocol/okp-whitepaper)**: an open protocol for a decentralized, verifiable global knowledge graph that no single organization owns. The idea is simple: knowledge is built collectively, so its infrastructure should belong to everyone. Instead of one "truth", OKP models entities, claims, sources, evidence, and relationships with full provenance, so anyone (human or AI) can see where a claim came from and how well it holds up.
+- **[Open Graph Chain (okp-chain)](https://github.com/Open-Knowledge-Protocol/okp-chain)**: the graph-native Cosmos SDK app chain behind OKP. Its state is an open knowledge graph of entities, claims, sources, evidence, and signed attestations. The knowledge and token models are frozen with protobuf wire formats, conformance test vectors, and independent Go and Python implementations. A single-validator reference chain is next.
+- **[8 Minutes Club](https://8minutesclub.com)**: *see all sides before you form an opinion.* A reader-facing app on OKP that gives you a structured look at both sides of a contested topic in about eight minutes, with supporting and opposing briefings linked to evidence and rebuttals. It's powered by **Prism**, an AI research agent that builds and refines the arguments.
 
 My usual stack is Java/Spring Boot, Python (Flask/Django), Node.js/Express, PostgreSQL, Redis, GCP, and AWS.
 
